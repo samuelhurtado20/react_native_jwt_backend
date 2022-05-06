@@ -1,0 +1,5 @@
+npm init -y
+npm i --save express jsonwebtoken @prisma/client argon2
+npm i --save-dev morgan prisma nodemon
+./node_modules/.bin/prisma init
+./node_modules/.bin/prisma db push
